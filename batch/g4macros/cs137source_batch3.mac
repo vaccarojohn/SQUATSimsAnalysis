@@ -1,0 +1,44 @@
+# SQUAT position: (79.9589, 0, 1439.95) mm
+# OVCC: r = 280.5 mm
+
+/run/numberOfThreads 60
+
+# Initialize kernel
+/run/initialize
+/control/macroPath ../G4Fridges/g4macros/
+
+#
+/control/verbose 2
+/run/verbose 2
+/run/printProgress 100000
+/event/verbose 0
+/tracking/verbose 0
+# 
+# gamma 6 MeV to the direction (0.,0.,1.)
+#
+
+/random/setSeeds 92936 88369
+
+/analysis/setFileName g4output/angular_study/theta-180/OLAFOutput-theta180.csv
+/olaf/source/theta 180
+/run/beamOn 2000000000
+
+/analysis/setFileName g4output/angular_study/theta-195/OLAFOutput-theta195.csv
+/olaf/source/theta 195
+/run/beamOn 2000000000
+
+/analysis/setFileName g4output/angular_study/theta-210/OLAFOutput-theta210.csv
+/olaf/source/theta 210
+/run/beamOn 2000000000
+
+/analysis/setFileName g4output/angular_study/theta-225/OLAFOutput-theta225.csv
+/olaf/source/theta 225
+/run/beamOn 2000000000
+
+/analysis/setFileName g4output/angular_study/theta-240/OLAFOutput-theta240.csv
+/olaf/source/theta 240
+/run/beamOn 2000000000
+
+/analysis/setFileName g4output/angular_study/theta-255/OLAFOutput-theta255.csv
+/olaf/source/theta 255
+/run/beamOn 2000000000

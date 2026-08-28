@@ -1,0 +1,36 @@
+/run/numberOfThreads 20
+
+# Initialize kernel
+/run/initialize
+/control/macroPath ../G4Fridges/g4macros/
+
+#
+/control/verbose 2
+/run/verbose 2
+/run/printProgress 100000
+/event/verbose 0
+/tracking/verbose 0
+# 
+# gamma 6 MeV to the direction (0.,0.,1.)
+#
+
+# 79.7089mm is SQUAT chip
+# 280.5mm is edge of fridge
+
+/analysis/setFileName g4output/radial_study/r025mco60/OLAFOutput-r025mco60.csv
+/olaf/source/type co60
+/olaf/source/radius 329.7089 mm
+/olaf/source/theta 0
+/run/beamOn 500000000
+
+/analysis/setFileName g4output/radial_study/r04mco60/OLAFOutput-r04mco60.csv
+/olaf/source/type co60
+/olaf/source/radius 479.7089 mm
+/olaf/source/theta 0
+/run/beamOn 500000000
+
+/analysis/setFileName g4output/radial_study/r1mco60/OLAFOutput-r1mco60.csv
+/olaf/source/type co60
+/olaf/source/radius 1079.7089 mm
+/olaf/source/theta 0
+/run/beamOn 500000000
