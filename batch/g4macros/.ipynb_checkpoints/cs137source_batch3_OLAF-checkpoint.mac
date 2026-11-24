@@ -19,26 +19,26 @@
 
 /random/setSeeds 92936 88369
 
-/analysis/setFileName g4output/angular_study/theta-180/OLAFOutput-theta180.csv
+/analysis/setFileName g4output/angular_study/theta180/OLAFOutput-theta180.csv
 /olaf/source/theta 180
 /run/beamOn 2000000000
 
-/analysis/setFileName g4output/angular_study/theta-195/OLAFOutput-theta195.csv
+/analysis/setFileName g4output/angular_study/theta195/OLAFOutput-theta195.csv
 /olaf/source/theta 195
 /run/beamOn 2000000000
 
-/analysis/setFileName g4output/angular_study/theta-210/OLAFOutput-theta210.csv
+/analysis/setFileName g4output/angular_study/theta210/OLAFOutput-theta210.csv
 /olaf/source/theta 210
 /run/beamOn 2000000000
 
-/analysis/setFileName g4output/angular_study/theta-225/OLAFOutput-theta225.csv
+/analysis/setFileName g4output/angular_study/theta225/OLAFOutput-theta225.csv
 /olaf/source/theta 225
 /run/beamOn 2000000000
 
-/analysis/setFileName g4output/angular_study/theta-240/OLAFOutput-theta240.csv
+/analysis/setFileName g4output/angular_study/theta240/OLAFOutput-theta240.csv
 /olaf/source/theta 240
 /run/beamOn 2000000000
 
-/analysis/setFileName g4output/angular_study/theta-255/OLAFOutput-theta255.csv
+/analysis/setFileName g4output/angular_study/theta255/OLAFOutput-theta255.csv
 /olaf/source/theta 255
 /run/beamOn 2000000000

@@ -11,8 +11,8 @@
 
 CONTAINER_PATH=/sdf/data/supercdms/workarea/G4CMP-project/soft/containers/G4CMP_V10-04-00.sif
 G4CMP_VERSION="V10-04-00"
-FRIDGE="OLAF"
-G4MACRO=/sdf/home/j/jvaccaro/DMQIS/DMQIS-OLAF-G4CMP/batch/g4macros/cs137source_batch4.mac
+FRIDGE=$1
+G4MACRO=/sdf/home/j/jvaccaro/DMQIS/SQUATSimsAnalysis/batch/g4macros/cs137source_batch4_${FRIDGE}.mac
 
 COMMAND="/sdf/home/j/jvaccaro/DMQIS/${FRIDGE}_build/${FRIDGE} ${G4MACRO}"
 echo $COMMAND
